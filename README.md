@@ -21,18 +21,43 @@ The work of an eleven year old learning python after coming from `scratch`.
 
 A `python3` game, the requirements are in the `requirements.txt` fileudo apt install python3-pip
 
-To install and run:
+To install and run on linux, run this from inside the directory of the project.
 
-    # create a virtual env
-    python3 -m venv venv
+```bash
+# create a virtual env
+python3 -m venv venv
 
-    # install stuff
-    source ./venv/bin/activate
+# install stuff
+source ./venv/bin/activate
 
-    python3 -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 
-    # do stuff
-    python3 bboop.py
+# do stuff
+python3 bboop.py
+```
+And on windows:
+
+First install python3: https://www.python.org/downloads/windows/
+
+Then inside the directory of the project
+
+```bash
+# create a virtual env
+python3 -m venv venv
+
+# install stuff
+venv\Scripts\activate
+
+python3 -m pip install -r requirements.txt
+
+# do stuff
+python3 bboop.py
+```
+
+
+
+
+
     
 
 
